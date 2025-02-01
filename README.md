@@ -1,3 +1,3 @@
-# GPT-2
+# GPT
 
-Implementation of GPT-2 in PyTorch.
+Implementation of GPT in PyTorch.
