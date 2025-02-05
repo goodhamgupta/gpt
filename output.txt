@@ -1,0 +1,43 @@
+Nay, you have better to be your natives?
+
+COMINIUS:
+O, make play on her, fusan in their heads am as
+enemies; every burn and these, likeless.
+
+First Lord:
+Well done well they'llough ere, one better away;
+If by rage she hath pawn'd with agon use.
+But where speaks, where strike, you were keep that can,
+And from her name to seeing the frospast viours.
+
+Second Murderer:
+Be backning may.
+
+FRANTIUS:
+A velues
+Alack of you; other, by my name is likenies,
+Perform'd the pity as an oath yet on these words
+
+
+
+#########################################
+device:  mps
+step 0: train loss 4.2849, val loss 4.2824
+step 300: train loss 2.3215, val loss 2.3516
+step 600: train loss 1.8953, val loss 2.0074
+step 900: train loss 1.6583, val loss 1.8252
+step 1200: train loss 1.5213, val loss 1.7136
+step 1500: train loss 1.4407, val loss 1.6419
+step 1800: train loss 1.3756, val loss 1.5878
+step 2100: train loss 1.3281, val loss 1.5610
+step 2400: train loss 1.2928, val loss 1.5422
+ step 2700: train loss 1.2565, val loss 1.5217
+step 3000: train loss 1.2260, val loss 1.5024
+step 3300: train loss 1.2003, val loss 1.5015
+step 3600: train loss 1.1809, val loss 1.4980
+step 3900: train loss 1.1534, val loss 1.4856
+step 4200: train loss 1.1318, val loss 1.4832
+step 4500: train loss 1.1063, val loss 1.4860
+step 4800: train loss 1.0891, val loss 1.4917
+
+In my previous implementation, I applied layer norm only once, after it passed both self-attention and the FFN block. Trainin for about 500K iterations, the validation loss was much lower(~0.7), but the output was still gibberish.
